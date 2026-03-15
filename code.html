@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Joyland Kids Play Zone - Where Kids Play &amp; Food Arrives by Train!</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f49d25",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#221a10",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Header -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/10 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md sticky top-0 z-50 px-6 md:px-20 py-4">
+<div class="flex items-center gap-4">
+<div class="size-10 text-primary">
+<span class="material-symbols-outlined text-4xl">train</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-extrabold leading-tight tracking-tight">Joyland</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-center gap-10">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Menu</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Play Zone</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Book Table</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-xl h-10 px-5 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform">
+<span>Book a Table</span>
+</button>
+<span class="material-symbols-outlined lg:hidden text-2xl">menu</span>
+</div>
+</header>
+<main class="flex flex-col">
+<!-- Hero Section -->
+<section class="px-6 md:px-20 py-12 md:py-20 max-w-[1440px] mx-auto w-full">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-8 order-2 lg:order-1">
+<div class="flex flex-col gap-4">
+<span class="text-primary font-bold tracking-widest uppercase text-sm">Welcome to Joyland</span>
+<h1 class="text-slate-900 dark:text-slate-100 text-5xl md:text-7xl font-black leading-[1.1] tracking-tight">
+                                    Where Kids Play &amp; Food Arrives by <span class="text-primary">Train!</span>
+</h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl font-medium leading-relaxed max-w-[540px]">
+                                    A magical family dining experience with an indoor play zone and mini train food delivery. Perfect for your next family outing.
+                                </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-xl shadow-primary/30 hover:scale-105 transition-all">
+                                    Book a Table
+                                </button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white border-2 border-primary/20 text-primary text-lg font-bold hover:bg-primary/5 transition-all">
+                                    Explore Play Zone
+                                </button>
+</div>
+</div>
+<div class="relative order-1 lg:order-2">
+<div class="aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-white dark:border-slate-800 rotate-2">
+<div class="w-full h-full bg-center bg-cover" data-alt="Kids playing in a colorful indoor playground" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA5xJN65nPISxnvfwV3YkRbF8H4GxBklINVXmALkHJuIfXzk_UIuwAaLfj6DAHucgh-LX_NebeaVsb6JrRIqzTY_QXMRyu0KiresDw6-YqwoyIwaFHoVUrnpMTAFgIa0v3rYL4OlOidJqdWIXeqlXHjh3l14mIvZqE4NGOchm-0foACQZq6gaSQYrBCr19cgOzi-JbqD1-981Hj51z7ZNGzeIY9JYnpf4WW1NlNd7uDchhQaBC8FwyHnBF2U9SR2A1gZ13YxegcVdHz");'></div>
+</div>
+<div class="absolute -bottom-6 -left-6 md:-bottom-10 md:-left-10 w-48 md:w-64 aspect-video bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border-4 border-primary p-2 -rotate-3 overflow-hidden">
+<div class="w-full h-full rounded-xl bg-center bg-cover" data-alt="Mini train delivering food on a track" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPgxKS1RVJpeFnxuSrvLUsf-EozFE_VMRwyOed4aCHhDc2GDwCaqk0D7ECCqGd1Ow9OuZz2nEcmbOqS4LUWWed8x20bnKW8WGEOo7so0TGBPtPZDbrHYDk-1kKVLoqBROsjcJ5E7afmJhhXz1KY2D_7T6FKfsd3et3EDXXSRfNqIBFYpmqsklCC5XJqJhy_Dt6gZJzDVudVpMWzIR0b_SVaq3VYE_yCeLiSo6iqiUFofjd6s6yBS-eCjNM3053VU6O2cB2GziSqY4h");'></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Families Love Joyland -->
+<section class="bg-primary/5 py-20 px-6 md:px-20">
+<div class="max-w-[1200px] mx-auto">
+<div class="text-center mb-16 space-y-4">
+<h2 class="text-4xl md:text-5xl font-black text-slate-900 dark:text-slate-100">Why Families Love Joyland</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg max-w-2xl mx-auto">Experience the perfect blend of high-energy play and delicious dining designed for all ages.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow flex flex-col gap-6 group">
+<div class="size-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-4xl">child_care</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Kids Play Zone</h3>
+<p class="text-slate-600 dark:text-slate-400">Safe and fun indoor playground with supervised slides, tunnels, and a massive ball pit.</p>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow flex flex-col gap-6 group">
+<div class="size-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-4xl">train</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Train Food Delivery</h3>
+<p class="text-slate-600 dark:text-slate-400">Watch the magic happen as our unique rail system delivers your fresh meals right to your table.</p>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow flex flex-col gap-6 group">
+<div class="size-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-4xl">restaurant</span>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-2">Family Dining</h3>
+<p class="text-slate-600 dark:text-slate-400">Gourmet burgers and healthy options for parents, and a menu kids actually want to eat.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mini Train Experience -->
+<section class="py-20 px-6 md:px-20 max-w-[1200px] mx-auto">
+<div class="flex flex-col lg:flex-row items-center gap-12 rounded-3xl overflow-hidden bg-white dark:bg-slate-800 shadow-xl border border-primary/10">
+<div class="w-full lg:w-1/2 aspect-video lg:aspect-square bg-center bg-cover" data-alt="Miniature train track on a dining table with burgers" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDNEGXjBlcmUrPivz4A-SvZr0xwIQYaLivUxkkTENq7n2G8_ftFFa6yLObe8DS1eviRa5TMaoFTlTJltoZqipQzgOfJa767D8rqeMv5ic_OiYlUJq5JXRpMujCK1J1W8lExmQ8RcqXxGeW5EOEs-hE27xLNd8Qd3yggh57fYwxZwVdrDXu-kx4jTPg-8dt6ZS8UiP_7TJKkjQ35pb3_OHKINGPXSJA-uI26KyumQnT3Jq8tLROwQC5DlQHmKCOFIHF5CQwqiu6CKT7T");'></div>
+<div class="w-full lg:w-1/2 p-10 md:p-16 flex flex-col gap-6">
+<span class="text-primary font-bold uppercase tracking-widest text-sm">Unique Experience</span>
+<h2 class="text-4xl font-black leading-tight">The Mini Train Food Delivery</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
+                                Forget traditional waiters! At Joyland, your food travels across the restaurant on a custom-built miniature rail system. Watch as your burgers, fries, and shakes navigate curves and straightaways to arrive perfectly at your station.
+                            </p>
+<button class="flex w-fit items-center justify-center rounded-xl h-12 px-8 bg-primary text-white font-bold hover:bg-primary/90 transition-all">
+                                See the Menu
+                            </button>
+</div>
+</div>
+</section>
+<!-- Playground Kids Will Love -->
+<section class="bg-slate-900 text-white py-20 px-6 md:px-20">
+<div class="max-w-[1200px] mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div class="space-y-4">
+<h2 class="text-4xl md:text-5xl font-black">A Playground Kids Will Love</h2>
+<p class="text-slate-400 text-lg max-w-xl">Supervised by our safety team so parents can relax and enjoy their meal.</p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 hover:underline">
+                                View Safety Rules <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="group relative overflow-hidden rounded-2xl aspect-[4/5]">
+<div class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Indoor colorful plastic slides" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDW1uHGgq-mww9v0M4bQnzSn4B9Y7g92eFNY1L7dZa6Bkri8bfiVpgUWJi5S-okFjMNfnlXMOdtLdNXU2W2-CIJP0mAbDjSneq15kuwFAGOSqUEnz9qBJX8sQiPsYDMI5cK24uYRqziyfgskU52aXrbn_hqLvyfhZUMiseUDrmW6rY9mzaJgq-y3tKT6Bfo1TjNDo-Hewr1kabF2yEyN-XaDza2IFXFgzxOyPeRalmqR5P3MOvxZjhMpVr9WS2P17wMr85kf6peK5rm");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-2xl font-bold">Fast &amp; Safe Slides</h3>
+<p class="text-slate-300">Multi-level spiral slides for big thrills.</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl aspect-[4/5]">
+<div class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Giant ball pit filled with yellow and blue balls" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCIwrvqeC2Kw4l962XbDdt4MbM_n3sogQnk2Nes8lVP5CpI9teTPlDmK8mqhGgbMS55mqxBORnCGR7ghzanzadX1Yg3Ml4k7gLvMw_VQl6cHWv4eZdHOOHyRu7FqFITlZqTKLBK5GN1-SrvWcyr5QZOwKQK5vWkb_VItBRFYUg8EAwZaCiIp-OnmBAQXqs-PRBtR7MScea1NjJt7_ndwYuaWXMdVrznc9sR8V4d3nVDSDOmm0D1arXWQeDraktTOdT_nt2_rqV3ybb7");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-2xl font-bold">Giant Ball Pit</h3>
+<p class="text-slate-300">Over 50,000 colorful balls to jump into.</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl aspect-[4/5]">
+<div class="absolute inset-0 bg-center bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Toddler play area with soft mats" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBSi-2W3-pnSAZqy5821mzu2EuHJpFfBkagDYaqKEF8V5MwkLCPTQm3JqotIqnpfqi8UjtntExsyXnFY5UfhCIB0EeGH0kdVn73pdFnUBakER9dseCFRBbQVyMjFE6DJe7fNJa5xLPfcjErpq1kBVxDNTifZked2HR9Um_ihST7JkG0jh45RacnLgtOm-W9y9X3z8OpfFdgEmPghKhJxnOz644fuPFzbwSTmLcUOvtThDjEHPE2XwFQKLMOdJfg_g88OErqpiA7oJav");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8">
+<h3 class="text-2xl font-bold">Toddler Zone</h3>
+<p class="text-slate-300">Soft play area dedicated to ages 1-4.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Delicious Food -->
+<section class="py-20 px-6 md:px-20 max-w-[1200px] mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-black mb-4">Delicious Food for Everyone</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg">From mini-sliders to gourmet steaks, our kitchen prepares everything fresh.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="space-y-3">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
+<div class="w-full h-full bg-center bg-cover" data-alt="Gourmet cheese burger on a plate" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAzM3iVlq92xj-ObG951vZ2ViULukdcH6Y1z0GjtMuoElq51szfPZtjAQR1uFmV1xHX5JsZpvBI7toOdkGmY190diTz9TVoi74dKQEWZEOaY0v8hW99uV2PBn_DA9yS2t5CdYPBIhd3MJviHw42dRSINX2l6zVMS9NiZLXB9MKemtZuZpxPUaPlp_9F-a6jWe84By6KC5O59oH__06xyIBpC6ugsm3B2r42JXSmMeDYP1FlD1bc2nyE27WI6vKUt2kYJIMpLIrL5Nxf");'></div>
+</div>
+<div class="px-2">
+<p class="font-bold">Joyland Classic Burger</p>
+<p class="text-primary font-bold">$14.99</p>
+</div>
+</div>
+<div class="space-y-3">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
+<div class="w-full h-full bg-center bg-cover" data-alt="Freshly baked pepperoni pizza" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCOyFbFWtxPDSKyDXHdWPebE53JVoHUsaCH5QYacWIEJD6kEpzjdDoBfxaJKcXHE0aEVz0uU0Tc_PEz--4cwtqmbgHwS3mFc7K8OgulR2SmkcdSa7dCPowBdViWbcVxpzPkCqmYGEDAL1ixdhdaLy76_NSW1TQZbZX_9rwOyCuJhQHoqrPwHzkX9ho-G2M2Gbp6BYb4c_Nzk9zdi48z6Rb6t1lW9CdRxhbNjYBqTdMoeK45mA19BHgPYIK2ZNO3jt_bHGzN5psd5VgX");'></div>
+</div>
+<div class="px-2">
+<p class="font-bold">Family Pizza</p>
+<p class="text-primary font-bold">$18.99</p>
+</div>
+</div>
+<div class="space-y-3">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
+<div class="w-full h-full bg-center bg-cover" data-alt="Strawberry and chocolate milkshakes" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBUFfNGvUfHK1l_AwgsKvZcCl6SzmwhlHv8VEroW2lHKOpiZJUfV8NqS9gjmtQhlt-SUNCWXdXXxl1EWiEEmZfJfG4YLGfs_KpDGWxQbMXfO8K5bB5DR-5KY_pWs6zNuwXqwCVMFCExzS9oYDn_PGPtggwyX1fRWELl3TyiAqNtK9lS70Los1dJOOIWN4L0WGLs7h2_iSD-jtfnugUJba6-d1mSqe5nfqm6VCowFewwJnhpimxM9IISHFey4bC3ujNWgarh-Oy5_5M4");'></div>
+</div>
+<div class="px-2">
+<p class="font-bold">Crazy Shakes</p>
+<p class="text-primary font-bold">$7.99</p>
+</div>
+</div>
+<div class="space-y-3">
+<div class="aspect-square rounded-2xl overflow-hidden shadow-lg">
+<div class="w-full h-full bg-center bg-cover" data-alt="Golden french fries with dip" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC2TrP9x-zOjejSopFHv7QI361-1VTUYXG7vlneFFcab3-V-posVGkq3LQkT-1lDFhXJhYcw5tFf7Ki1kEDYDEZyntBDyOGiPAvhVVhwWPiWFmH6KXDzvo1eemBiE_JXhdbV7Z9APweD27apEF9hRS1klXG0KSn1anz27BEOJ9tElRnMyv35tsVZSoqPo2Sl9TViaEykx77IZPEcDqm4QX0NN22Gmdp7xNwkGyOgjYBXZuE_WsrTE1iTX95optoJCmNti-0Mf56KoxQ");'></div>
+</div>
+<div class="px-2">
+<p class="font-bold">Seasoned Fries</p>
+<p class="text-primary font-bold">$5.99</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Birthday Parties -->
+<section class="bg-primary py-20 px-6 md:px-20 text-white text-center">
+<div class="max-w-[800px] mx-auto space-y-8">
+<span class="material-symbols-outlined text-7xl">celebration</span>
+<h2 class="text-4xl md:text-6xl font-black">Plan the Best Birthday Ever!</h2>
+<p class="text-xl md:text-2xl font-medium opacity-90">Private party rooms, dedicated train delivery for the cake, and unlimited play for all guests.</p>
+<div class="pt-6">
+<button class="bg-white text-primary rounded-xl h-16 px-10 text-xl font-bold shadow-2xl shadow-black/20 hover:scale-105 transition-all">
+                                Book a Birthday Party
+                            </button>
+</div>
+</div>
+</section>
+<!-- Photo Gallery -->
+<section class="py-20 px-6 md:px-20 max-w-[1200px] mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-black mb-4">Moments at Joyland</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg">Tag us in your photos to get featured on our wall!</p>
+</div>
+<div class="columns-2 md:columns-4 gap-4 space-y-4">
+<div class="rounded-xl overflow-hidden bg-slate-200">
+<img class="w-full object-cover" data-alt="Happy child smiling in play zone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDh-DjHCXJO265Ljl-DehRm2XkSbBMB67iHDvn-9jQV0-xOMSFbRGyOVj5Rhz_OmOo1LGea8NXFa8bVdINYYOtcK2z09PSHSpEt9Dkjb5SBEDPY6G6scESu8ARLwW-qurHXv1C0J16rb_Zibm7H1upSkGsbf3XJZSC7Q8ZMl30fRp9Mm-5OommlMm4Q4N_npIgdc4eso_daPI0dakZzUmN6aCblQIqwGf87BfNJh-ZHAJGP98bi2X4QI4o9qNqh7Kx_xzjY9TmvMfFn"/>
+</div>
+<div class="rounded-xl overflow-hidden bg-slate-200">
+<img class="w-full object-cover" data-alt="Family eating together at a restaurant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDg8dqj_cZrgKTNDSwG_iBm7oeiIZp67VYqTuhEO_DkRryeK-zjijQHHiV2-p9zT4jKP2JWXF-L4GFdNE7r433CgMl1CWmSQyVVrV5bONYw-kCOfEwZWUaBzJuL8gWf6vKq01q9q68EV7VjD2048eW1Wjcud1B5MWAj41afiuapBc94qpGCa09WzEz8q-42cnQwV0xiDMJPMH_CpJYnzIR4Q_Vlg5euxJAOLXHOIsVppBHeWN4GeJ0VuNy_RzvTiNTQniVvY_6Kcz-H"/>
+</div>
+<div class="rounded-xl overflow-hidden bg-slate-200">
+<img class="w-full object-cover" data-alt="Delicious burgers on a train track" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDPAbWnoY87aW_tyZKqrgDgusGV-dx9_2s_u_Nz9fYrrUzUkRa0Cz23ugbRwB-anTCfRDZrScyszgNYs-ebvhm2albL5eFE-R2IEY9U9aEE__oKf1nb7XoWKCbqdkJfWv2PRXPlBbdp-lh3e2gNHYkvnivgowpLYWsyjuv5sm-E2BnM2JFbq-lHsB0E0kgGlCwQNM_3Rco5qs6XivqtM4qcSKQcLXhEszCAbv9gUdA8OSIib-Nw61U9sDF838IQWsd4T6GlhZ5Zu2x"/>
+</div>
+<div class="rounded-xl overflow-hidden bg-slate-200">
+<img class="w-full object-cover" data-alt="Kids group at a birthday party" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB_ghjMGkaAO159Qd4zl4qP_sseW4jbuw4HjhQybcOBf5LZmozTaj7xUjwjaRDbn9BFuWI0GnVZRnzg3TOuNfVURWr0GBdVQulPy3dYN5uM5JFmO4lESXNYgGKCA5nYmN1v3DacwG6CzaCe4i-t8cBZDo0Eih9uzcSaa5R91rVHztk9WqBlBT-RyTfwj46O_HoYoRCl6PzyDANfHl7g__1bdrjo4PyHr0LsjyM0Ot_z48AFH7jLjt8EEX9fVZ7LnR2h00AB68FXMNb"/>
+</div>
+</div>
+</section>
+<!-- Location & Timings -->
+<section class="bg-background-light dark:bg-slate-900/50 py-20 px-6 md:px-20 border-t border-primary/10">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<h2 class="text-4xl font-black">Plan Your Visit</h2>
+<div class="space-y-6">
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary text-3xl">location_on</span>
+<div>
+<p class="text-xl font-bold">Find Us</p>
+<p class="text-slate-600 dark:text-slate-400">123 Adventure Way, Kids Corner District<br/>Amusement City, AC 54321</p>
+</div>
+</div>
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary text-3xl">schedule</span>
+<div>
+<p class="text-xl font-bold">Opening Hours</p>
+<p class="text-slate-600 dark:text-slate-400">Mon - Fri: 11:00 AM - 10:00 PM</p>
+<p class="text-slate-600 dark:text-slate-400">Sat - Sun: 10:00 AM - 11:00 PM</p>
+</div>
+</div>
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-primary text-3xl">call</span>
+<div>
+<p class="text-xl font-bold">Get in Touch</p>
+<p class="text-slate-600 dark:text-slate-400">+1 (555) JOY-LAND</p>
+<p class="text-slate-600 dark:text-slate-400">hello@joylandplayzone.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800">
+<div class="w-full h-full bg-slate-200 bg-center bg-cover" data-alt="Map showing Joyland location" data-location="Chicago" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAkVIp_q0Vqlnne6mwiZnrVR2d5l40bSmAPentM1h5nxui-FHTiVqP05IJ9WPOZyoz1QOvBajbSL8FpI1d_KbIShaWEo4qGh5aJMPIvHDCBqgTwvJ7vUGYz0P7m0AGSR7PkCAti7BKJclK6LbpuIN8ORWQ-SEE6tfUYhnYR903rnVqdbWgMBHIfCATcFGWCrZJ6OpYi2ht5S9dy184K3vFNIBiUQyvUsPmsEpErjenwI3URa8L_ceR8rlrRbSYHNdEdso68WUdw9lve");'></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-background-dark border-t border-primary/10 px-6 md:px-20 py-12">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-2 space-y-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">train</span>
+<h2 class="text-2xl font-bold">Joyland</h2>
+</div>
+<p class="text-slate-600 dark:text-slate-400 max-w-sm">The ultimate family destination where play meets flavor. Watch the magic happen with every meal delivered by train.</p>
+<div class="flex gap-4">
+<a class="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">brand_family</span>
+</a>
+<a class="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6">Quick Links</h4>
+<ul class="space-y-4 text-slate-600 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Our Menu</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Play Zone Rules</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Party Packages</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Book a Table</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Support</h4>
+<ul class="space-y-4 text-slate-600 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQs</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto mt-12 pt-8 border-t border-primary/10 text-center text-slate-500 text-sm">
+                    © 2024 Joyland Kids Play Zone. All rights reserved. Built with love for families.
+                </div>
+</footer>
+</div>
+</div>
+</body></html>
